@@ -11,7 +11,7 @@
   <p align="center">
     Incredible Frames, by CloudTeam and awesome contributors ^^
     <br/>
-    <a href="https://frames.cloudteam.me">Website</a>
+    <a href="https://frames.cloudteam.me">Website</a> 
     ·
     <a href="https://discord.gg/gTuabejrGb/">Discord</a>
     ·
