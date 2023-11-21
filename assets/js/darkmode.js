@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM Loaded');
+    // console.log('DOM Loaded');    Used for debuging
 
     var darkModeToggle = document.getElementById('mode-toggle');
-    console.log('darkModeToggle:', darkModeToggle);
+    // console.log('darkModeToggle:', darkModeToggle);    Used for debuging
 
     // Check if dark mode preference is stored in Local Storage
     var isDarkModeEnabled = localStorage.getItem('darkMode') === 'enabled';
@@ -16,13 +16,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     darkModeToggle.addEventListener('change', function() {
-        console.log('Dark mode toggle changed');
+        // console.log('Dark mode toggle changed');    Used for debuging
 
         if (darkModeToggle.checked) {
-            console.log('Dark mode enabled');
+            // console.log('Dark mode enabled');     Used for debuging
             enableDarkMode();
         } else {
-            console.log('Dark mode disabled');
+            // console.log('Dark mode disabled');    Used for debuging
             disableDarkMode();
         }
 
@@ -31,12 +31,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function enableDarkMode() {
-        console.log('Enabling dark mode');
+        // console.log('Enabling dark mode');    Used for debuging
         document.body.classList.add('dark-mode');
     }
 
     function disableDarkMode() {
-        console.log('Disabling dark mode');
+        // console.log('Disabling dark mode');    Used for debuging
         document.body.classList.remove('dark-mode');
     }
 });
