@@ -19,28 +19,28 @@
       <meta name="author" content="Lynnux" />
       <meta name="copyright" content="Lynnux © <?php echo date("Y"); ?>" />
       <!-- Extra -->
-      <meta property="og:image" content="https://codes.cloudteam.me/assets/img/banner.png" />
+      <meta property="og:image" content="https://cdn.lynnux.xyz/lynnux/banner.png" />
       <!-- =========================== ^ To-Fix ===========================  -->
       <!-- Spiders indexation -->
       <meta name="robots" content= "index, follow">
       <!-- favicons -->
-      <link rel="apple-touch-icon" sizes="57x57" href="https://cloudteam.me/assets/favicon/apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="https://cloudteam.me/assets/favicon/apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="https://cloudteam.me/assets/favicon/apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="https://cloudteam.me/assets/favicon/apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="https://cloudteam.me/assets/favicon/apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="https://cloudteam.me/assets/favicon/apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="https://cloudteam.me/assets/favicon/apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="https://cloudteam.me/assets/favicon/apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="https://cloudteam.me/assets/favicon/apple-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="192x192"  href="https://cloudteam.me/assets/favicon/android-icon-192x192.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="https://cloudteam.me/assets/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="https://cloudteam.me/assets/favicon/favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="https://cloudteam.me/assets/favicon/favicon-16x16.png">
-      <meta name="msapplication-TileColor" content="#2571e8">
-      <meta name="msapplication-TileImage" content="https://cloudteam.me/assets/favicon/ms-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="57x57" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="https://cdn.lynnux.xyz/lynnux/assets/favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.lynnux.xyz/lynnux/assets/favicon/favicon-16x16.png">
+      <meta name="msapplication-TileColor" content="#ff74ff">
+      <meta name="msapplication-TileImage" content="https://cdn.lynnux.xyz/lynnux/assets/favicon/ms-icon-144x144.png">
       <!-- =========================== ^ To-Do ===========================  -->
-      <meta name="msapplication-TileColor" content="#2571e8">
+      <meta name="msapplication-TileColor" content="#ff74ff">
       <!-- CDN Links -->
       <!-- Bootstrap Styling v5.1.3 Minified -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -81,8 +81,6 @@
          	}
          }
       </script>
-      <!-- Adsense -->
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5711390134813679" crossorigin="anonymous"></script>
       <!-- Import Styling -->
       <link rel="stylesheet" href="./assets/css/style.css?v=6.1">
       <!-- No Script -->
@@ -96,14 +94,14 @@
       <header>
          <nav class="navbar fixed-top navbar-expand-lg bg-color">
             <div class="container" id="content-header">
-               <a class="navbar-brand" href="https://cloudteam.me">
+               <a class="navbar-brand" href="https://lynnux.xyz">
                   <img src="https://cdn.lynnux.xyz/Lynnux/large_Lynnux_black.png" width="160px" alt="Lynnux">
                </a>
                <div class="social-media order-lg-last">
                   <p class="mb-0 d-flex">
-                     <a href="https://github.com/cloudteamdev" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-github"><i class="sr-only">GitHub</i></span></a>
-                     <a href="https://join.cloudteam.me" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-discord"><i class="sr-only">Discord</i></span></a>
-                     <a href="https://social.cloudteam.me/twitter" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                     <a href="https://github.com/LynnuxDev" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-github"><i class="sr-only">GitHub</i></span></a>
+                     <a href="https://join.lynnux.xyz/discord" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-discord"><i class="sr-only">Discord</i></span></a>
+                     <a href="https://join.lynnux.xyz/twitter" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-twitter"><i class="sr-only">Twitter</i></span></a>
                   </p>
                </div>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse">
@@ -111,10 +109,10 @@
                </button>
                <div class="collapse navbar-collapse bg-color" id="collapse">
                   <ul class="navbar-nav ml-auto mr-md-3">
-                     <li class="nav-item active"><a href="https://cloudteam.me" class="nav-text">Home</a></li>
-                     <li class="nav-item"><a href="https://cloudteam.me/#projects" class="nav-text">Projects</a></li>
-                     <li class="nav-item"><a href="https://legal.cloudteam.me" target="_blank"class="nav-text">Legal</a></li>
-                     <li class="nav-item"><a href="https://cloudteam.me/#contact" class="nav-text">Contact</a></li>
+                     <li class="nav-item active"><a href="https://lynnux.xyz" class="nav-text">Home</a></li>
+                     <li class="nav-item"><a href="https://lynnux.xyz/#projects" class="nav-text">Projects</a></li>
+                     <li class="nav-item"><a href="https://legal.lynnux.xyz" target="_blank"class="nav-text">Legal</a></li>
+                     <li class="nav-item"><a href="https://lynnux.xyz/#contact" class="nav-text">Contact</a></li>
                   </ul>
                </div>
             </div>
@@ -224,7 +222,7 @@
                               <div class="modal-body">
                                  <p class="sm-t text-muted">Upload your own Icon, recommended minimum size is 128x128, recommended format is PNG (transparent)</p>
                                  <div class="alert alert-primary alert-dismissible fade show sm-t" role="alert">
-                                    <strong>Hey there!</strong> Just letting you know that the 'Invert' button may not work properly with custom icons.
+                                    <strong>Hey there!</strong> Just letting you know that the 'Upload' function may not work properly with custom icons.
                                     <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
                                     </button>
                                  </div>
@@ -232,7 +230,7 @@
                                  <input type="file"  accept="image/*" name="image" id="fileicon"  onchange="setholder(this, '#icon-holder')" style="display: none;">
                                  <p><label for="fileicon" style="cursor: pointer;" class="btn btn-dark sm-t mb-0"><i class="fa-solid fa-upload"></i> Upload From Device</label></p>
                                  <p class="sm-t mb-0">Reset Icon</p>
-                                 <a class="btn btn-danger sm-t" id="reset-icon" data-source="https://i.imgur.com/ayFFzNr.png" onclick="select('icon', this.id, this.getAttribute('data-source'));">Click to reset!</a>
+                                 <a class="btn btn-danger sm-t" id="reset-icon" data-source="https://cdn.lynnux.xyz/lynnux/0.png" onclick="select('icon', this.id, this.getAttribute('data-source'));">Click to reset!</a>
                               </div>
                               <div class="modal-footer">
                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -241,77 +239,77 @@
                         </div>
                      </div>
                      <div class="option d-inline-block">
-                        <img id="developer" width="60px" src="https://i.imgur.com/t93w1Np.png" data-source="https://i.imgur.com/t93w1Np.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="developer" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Developer.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Developer.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="balance" width="60px" src="https://i.imgur.com/6SiHdDM.png" data-source="https://i.imgur.com/6SiHdDM.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="balance" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Balance.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Balance.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="bravery" width="60px" src="https://i.imgur.com/bTiss5e.png" data-source="https://i.imgur.com/bTiss5e.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="bravery" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Bravery.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Bravery.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="brilliance" width="60px" src="https://i.imgur.com/bgLAui7.png" data-source="https://i.imgur.com/bgLAui7.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="brilliance" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Brilliance.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Brilliance.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="bug-hunter" width="60px" src="https://i.imgur.com/DkJXD1L.png" data-source="https://i.imgur.com/DkJXD1L.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="bug-hunter" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Bug-Hunter.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Bug-Hunter.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="hypesquad-events" width="60px" src="https://i.imgur.com/YrtWAQj.png" data-source="https://i.imgur.com/YrtWAQj.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="hypesquad-events" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Hypesquad-Events.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Hypesquad-Events.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="nitro-normal" width="60px" src="https://i.imgur.com/lVYWtZA.png" data-source="https://i.imgur.com/lVYWtZA.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="nitro-normal" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Nitro-Normal.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Nitro-Normal.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="nitro-linear" width="60px" src="https://i.imgur.com/9dRaq6t.png" data-source="https://i.imgur.com/9dRaq6t.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="nitro-linear" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Nitro-Linear.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Nitro-Linear.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="partner" width="60px" src="https://i.imgur.com/7k2J0az.png" data-source="https://i.imgur.com/7k2J0az.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="partner" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Partner.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Partner.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="tools" width="60px" src="https://i.imgur.com/SVJpHbQ.png" data-source="https://i.imgur.com/SVJpHbQ.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="tools" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Tools.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Tools.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="booster" width="60px" src="https://i.imgur.com/COqTWSm.png" data-source="https://i.imgur.com/COqTWSm.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="booster" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Booster.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Booster.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="crown" width="60px" src="https://i.imgur.com/3isqxe6.png" data-source="https://i.imgur.com/3isqxe6.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="crown" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Crown.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Crown.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="bitcoin" width="60px" src="https://i.imgur.com/y3JOZXa.png" data-source="https://i.imgur.com/y3JOZXa.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="bitcoin" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Bitcoin.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Bitcoin.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="crossing-swords" width="60px" src="https://i.imgur.com/dMNlqQT.png" data-source="https://i.imgur.com/dMNlqQT.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="crossing-swords" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Crossing-Swords.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Crossing-Swords.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="verified" width="60px" src="https://i.imgur.com/ZNof9NC.png" data-source="https://i.imgur.com/ZNof9NC.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="verified" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Verified.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Verified.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="basement" width="60px" src="https://i.imgur.com/PSRklhw.png" data-source="https://i.imgur.com/PSRklhw.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="basement" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Basement.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Basement.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="cloudteam_icon" width="60px" src="https://i.imgur.com/yZygeok.png" data-source="https://i.imgur.com/yZygeok.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="cloudteam_icon" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Default-Cloudteam.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Default-Cloudteam.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="hrdivider">
                         <hr/>
                         <span>Social Media</span>
                      </div>
                      <div class="option d-inline-block">
-                        <img id="social-discord" width="60px" src="https://i.imgur.com/4Pxx58n.png" data-source="https://i.imgur.com/4Pxx58n.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="social-discord" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Discord.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Discord.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="social-twitter" width="60px" src="https://i.imgur.com/nM8RhNN.png" data-source="https://i.imgur.com/nM8RhNN.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="social-twitter" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Twitter.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Twitter.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="social-youtube" width="60px" src="https://i.imgur.com/XUWTDa8.png" data-source="https://i.imgur.com/XUWTDa8.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="social-youtube" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Youtube.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Youtube.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="social-twitch" width="60px" src="https://i.imgur.com/SINAIBD.png" data-source="https://i.imgur.com/SINAIBD.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="social-twitch" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Twitch.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Twitch.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="social-twitch-large" width="60px" src="https://i.imgur.com/ZJusAvl.png" data-source="https://i.imgur.com/ZJusAvl.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="social-twitch-large" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Twitch-Text.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Twitch-Text.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="social-gluo-large" width="60px" src="https://i.imgur.com/9JIRTla.png" data-source="https://i.imgur.com/9JIRTla.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="social-gluo-large" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Gluo.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Gluo.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                   </div>
                </div>
@@ -363,7 +361,7 @@
                   </div>
                   <hr>
                   <a class="btn btn-danger sm-t mb-1" onclick="range('reset')">Reset Overlay Filters</a>
-                  <a class="btn btn-danger sm-t mb-1" onclick="avatarurl('https://i.imgur.com/x02TVVv.png')">Reset Frame Avatar</a>
+                  <a class="btn btn-danger sm-t mb-1" onclick="avatarurl('https://cdn.lynnux.xyz/lynnux/Icon-avatar-holder.png')">Reset Frame Avatar</a>
                   <hr>
                </div>
             </div>
@@ -408,7 +406,7 @@
             All rights reserved.</a>
          </div>
       </footer>
-      <!-- CloudTeam Frames Scripting -->
+      <!-- Lynnux Frames Scripting -->
       <script src="./assets/js/script.js?v=4.1"></script>
       <script src="./assets/js/darkmode.js?v=1"></script>
       <!-- DOM to image v2.6.0 Minified -->
