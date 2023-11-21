@@ -333,7 +333,7 @@
                   <div class="form-check text-muted">
                      <input class="form-check-input" type="checkbox" value="" id="mode-toggle">
                      <label class="form-check-label sm-t" for="darkModeToggle">
-                           Enable Darkmode (Not available!)
+                           Enable Darkmode (Now available!)
                      </label>
                   </div>
                   <hr>
