@@ -1,67 +1,42 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const darkModeToggle = document.getElementById('darkModeToggle');
-    const bodyElement = document.body;
-    const logoImage = document.querySelector('.navbar-brand img');
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM Loaded');
 
-    // Check if the user's dark mode preference is already set in cookies
-    const isDarkModeEnabled = getCookie('darkMode') === 'enabled';
+    var darkModeToggle = document.getElementById('mode-toggle');
+    console.log('darkModeToggle:', darkModeToggle);
 
-    // Apply the dark mode class if the preference is set or saved
+    // Check if dark mode preference is stored in Local Storage
+    var isDarkModeEnabled = localStorage.getItem('darkMode') === 'enabled';
+
+    // Set the initial state based on the Local Storage value
+    darkModeToggle.checked = isDarkModeEnabled;
+
+    // Apply dark mode styles based on the initial state
     if (isDarkModeEnabled) {
         enableDarkMode();
     }
 
-    darkModeToggle.addEventListener('change', function () {
+    darkModeToggle.addEventListener('change', function() {
+        console.log('Dark mode toggle changed');
+
         if (darkModeToggle.checked) {
+            console.log('Dark mode enabled');
             enableDarkMode();
         } else {
+            console.log('Dark mode disabled');
             disableDarkMode();
         }
+
+        // Save the user's preference in Local Storage
+        localStorage.setItem('darkMode', darkModeToggle.checked ? 'enabled' : 'disabled');
     });
 
     function enableDarkMode() {
-        bodyElement.classList.add('dark-mode');
-        setCookie('darkMode', 'enabled', 365); // Set cookie to expire in 365 days
-        updateLogoImage('https://cdn.lynnux.xyz/cloudteam/large_cloudteam_white.png');
+        console.log('Enabling dark mode');
+        document.body.classList.add('dark-mode');
     }
 
     function disableDarkMode() {
-        bodyElement.classList.remove('dark-mode');
-        deleteCookie('darkMode');
-        updateLogoImage('https://cdn.lynnux.xyz/cloudteam/large_cloudteam_black.png');
-    }
-
-    function updateLogoImage(src) {
-        // Preload the image to avoid delays
-        const img = new Image();
-        img.src = src;
-        img.onload = function () {
-            logoImage.src = src;
-        };
-    }
-
-    function setCookie(name, value, days) {
-        var expires = '';
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-            expires = '; expires=' + date.toUTCString();
-        }
-        document.cookie = name + '=' + value + expires + '; path=/';
-    }
-
-    function getCookie(name) {
-        var nameEQ = name + '=';
-        var ca = document.cookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
-        }
-        return null;
-    }
-
-    function deleteCookie(name) {
-        document.cookie = name + '=; Max-Age=-99999999;';
+        console.log('Disabling dark mode');
+        document.body.classList.remove('dark-mode');
     }
 });
