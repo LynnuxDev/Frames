@@ -6,18 +6,18 @@
       <!-- Meta Data: Embedding -->
       <meta property="og:type" content="website" />
       <meta name="theme-color" content="#2571e8" />
-      <title>CloudTeam - Frames</title>
-      <meta property="og:site_name" content="© CloudTeam.me" />
-      <meta property="og:title" content="CloudTeam Frames official." />
+      <title>Lynnux - Frames</title>
+      <meta property="og:site_name" content="© Lynnux.xyz" />
+      <meta property="og:title" content="Lynnux Frames." />
       <meta property="og:description" content="Decorate your profile with an awesome Frame Overlay for your Avatar! Get yourself an overlay without entering any data." />
-      <meta property="og:url" content="https://frames.cloudteam.me" />
+      <meta property="og:url" content="https://frames.lynnux.me" />
       <meta property="og:image:type" content="image/png" />
       <meta property="twitter:card" content="summary_large_image" />
       <meta name="description" content="Decorate your profile with an awesome Frame Overlay for your Avatar! Get yourself an overlay without entering any data." />
-      <meta name="keywords" content="Frames, Overlay, Discord Frames, Twitter Frames, Twitter Frame, Avatar Frame, Avatar, Customization, Decoration, Overlays, CloudTeam, Cloud Team, Cloud Codes, cloudteam.me" />
+      <meta name="keywords" content="Frames, Overlay, Discord Frames, Twitter Frames, Twitter Frame, Avatar Frame, Avatar, Customization, Decoration, Overlays, Lynnux, CloudTeam, Cloud Team, Cloud Codes, cloudteam.me" />
       <!-- Meta Data: Brand -->
-      <meta name="author" content="CloudTeam" />
-      <meta name="copyright" content="CloudTeam © <?php echo date("Y"); ?>" />
+      <meta name="author" content="Lynnux" />
+      <meta name="copyright" content="Lynnux © <?php echo date("Y"); ?>" />
       <!-- Extra -->
       <meta property="og:image" content="https://codes.cloudteam.me/assets/img/banner.png" />
       <!-- =========================== ^ To-Fix ===========================  -->
@@ -62,7 +62,7 @@
          function handler(type) {
          	if(type == "avatar_invalid") {
          	    weblog("error", "Sorry, we couldn't set the given avatar, try with another image URL or device upload!");
-         	    document.getElementById("avatar-holder").src="https://i.imgur.com/yY7VScU.png";
+         	    document.getElementById("avatar-holder").src="https://cdn.lynnux.xyz/lynnux/avatar-holder.png";
          	}
          	if(type == "overlay_correct") { weblog("success", "Successfully loaded the selected overlay."); }
          	if(type == "icon_correct") { weblog("success", "Successfully loaded the selected icon.") }
@@ -97,7 +97,7 @@
          <nav class="navbar fixed-top navbar-expand-lg bg-color">
             <div class="container" id="content-header">
                <a class="navbar-brand" href="https://cloudteam.me">
-                  <img src="https://cdn.lynnux.xyz/cloudteam/large_cloudteam_black.png" width="160px" alt="CloudTeam">
+                  <img src="https://cdn.lynnux.xyz/Lynnux/large_Lynnux_black.png" width="160px" alt="Lynnux">
                </a>
                <div class="social-media order-lg-last">
                   <p class="mb-0 d-flex">
@@ -141,7 +141,7 @@
                </div>
                <div id="overlays-tab-content" class="tabcontent">
                   <div class="alert alert-primary alert-dismissible fade show sm-t" role="alert">
-                     <strong>Welcome to CloudTeam Frames V.3!</strong> Do not forget to check the <a class="alert-link" onclick="document.getElementById('settings-info-tab').click();" data-dismiss="alert" style="cursor: pointer;">settings tab</a> to set your avatar image.
+                     <strong>Welcome to Lynnux Frames V.1!</strong> Do not forget to check the <a class="alert-link" onclick="document.getElementById('settings-info-tab').click();" data-dismiss="alert" style="cursor: pointer;">settings tab</a> to set your avatar image.
                      <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
                      </button>
                   </div>
@@ -162,36 +162,36 @@
                         <span>Default</span>
                      </div>
                      <div class="option d-inline-block">
-                        <img id="none" width="60px" src="https://i.imgur.com/ayFFzNr.png" data-source="https://i.imgur.com/ayFFzNr.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                        <img id="none" width="60px" src="https://cdn.lynnux.xyz/lynnux/0.png" data-source="https://cdn.lynnux.xyz/lynnux/0.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="default-circle" width="60px" src="https://i.imgur.com/xgxjZv4t.png" data-source="https://i.imgur.com/xgxjZv4.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                        <img id="default-circle" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-1.png" data-source="https://cdn.lynnux.xyz/lynnux/1.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="border-only" width="60px" src="https://i.imgur.com/TNCR4Wut.png" data-source="https://i.imgur.com/TNCR4Wu.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                        <img id="border-only" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-2.png" data-source="https://cdn.lynnux.xyz/lynnux/2.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
                         <!-- Dark overlay, not viewable in preview, fix. -->
-                        <img id="inclinated-square" width="60px" src="https://i.imgur.com/ZVtJedSt.png" data-source="https://i.imgur.com/ZVtJedS.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                        <img id="inclinated-square" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-3.png" data-source="https://cdn.lynnux.xyz/lynnux/3.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="rectangle-circle" width="60px" src="https://i.imgur.com/YsaWKuat.png" data-source="https://i.imgur.com/YsaWKua.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                        <img id="rectangle-circle" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-4.png" data-source="https://cdn.lynnux.xyz/lynnux/4.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="hrdivider">
                         <hr/>
                         <span>Animals</span>
                      </div>
                      <div class="option d-inline-block">
-                        <img id="animal-bee" width="60px" src="https://i.imgur.com/HgNl9Rpt.png" data-source="https://i.imgur.com/HgNl9Rp.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                        <img id="animal-bee" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-5.png" data-source="https://cdn.lynnux.xyz/lynnux/5.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="animal-frog" width="60px" src="https://i.imgur.com/mRaTreut.png" data-source="https://i.imgur.com/mRaTreu.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                        <img id="animal-frog" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-6.png" data-source="https://cdn.lynnux.xyz/lynnux/6.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="animal-bunny" width="60px" src="https://i.imgur.com/eGKUdjet.png" data-source="https://i.imgur.com/eGKUdje.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                        <img id="animal-bunny" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-7.png" data-source="https://cdn.lynnux.xyz/lynnux/7.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
-                        <img id="animal-bunny-pink" width="60px" src="https://i.imgur.com/1ESwUFOt.png" data-source="https://i.imgur.com/1ESwUFO.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                        <img id="animal-bunny-pink" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-8.png" data-source="https://cdn.lynnux.xyz/lynnux/8.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
                   </div>
                </div>
@@ -207,10 +207,10 @@
                         <span>Default</span>
                      </div>
                      <div class="option d-inline-block">
-                        <img id="none" width="60px" src="https://i.imgur.com/ayFFzNr.png" data-source="https://i.imgur.com/ayFFzNr.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                        <img id="none" width="60px" src="https://cdn.lynnux.xyz/lynnux/ayFFzNr.png" data-source="https://cdn.lynnux.xyz/lynnux/ayFFzNr.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="upload d-inline-block">
-                        <img src="https://i.imgur.com/BFquThP.png" id="upload-button" class="bg-primary" alt="Upload" width="60px" data-toggle="modal" data-target="#upload-icon">
+                        <img src="https://cdn.lynnux.xyz/lynnux/Icon-BFquThP.png" id="upload-button" class="bg-primary" alt="Upload" width="60px" data-toggle="modal" data-target="#upload-icon">
                      </div>
                      <!-- Modal -->
                      <div class="modal fade" id="upload-icon" tabindex="-1" role="dialog" aria-labelledby="upload-icon-modal-label" aria-hidden="true">
@@ -371,9 +371,9 @@
                <!-- second -->
                <div class="preview-holder" id="holder">
                   <div>
-                     <img id="avatar-holder" src="https://i.imgur.com/x02TVVv.png" class="img1 mx-auto" width="500px" onerror="handler('avatar_invalid');">
-                     <img id="overlay-holder" src="https://i.imgur.com/0cn29ow.png" class="img2 mx-auto" width="500px" onload="handler('overlay_correct')">
-                     <img id="icon-holder" src="https://i.imgur.com/ayFFzNr.png" class="img3 mx-auto" width="500px" onload="handler('icon_correct')">
+                     <img id="avatar-holder" src="https://cdn.lynnux.xyz/lynnux/Icon-avatar-holder.png" class="img1 mx-auto" width="500px" onerror="handler('avatar_invalid');">
+                     <img id="overlay-holder" src="https://cdn.lynnux.xyz/lynnux/Preview.png" class="img2 mx-auto" width="500px" onload="handler('overlay_correct')">
+                     <img id="icon-holder" src="https://cdn.lynnux.xyz/lynnux/0.png" class="img3 mx-auto" width="500px" onload="handler('icon_correct')">
                   </div>
                </div>
             </div>
@@ -404,7 +404,7 @@
       <!-- Footer -->
       <footer>
          <div class="copyright">
-            <a class="fl text-left mb-2" href="https://cloudteam.me">© <?php echo date("Y"); ?> CloudTeam
+            <a class="fl text-left mb-2" href="https://lynnux.xyz">© <?php echo date("Y"); ?> Lynnux
             All rights reserved.</a>
          </div>
       </footer>
