@@ -175,6 +175,9 @@
                      <div class="option d-inline-block">
                         <img id="rectangle-circle" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-4.png" data-source="https://cdn.lynnux.xyz/lynnux/4.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-9.png" data-source="https://cdn.lynnux.xyz/lynnux/9.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
                      <div class="hrdivider">
                         <hr/>
                         <span>Animals</span>
@@ -190,6 +193,13 @@
                      </div>
                      <div class="option d-inline-block">
                         <img id="animal-bunny-pink" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-8.png" data-source="https://cdn.lynnux.xyz/lynnux/8.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="hrdivider">
+                        <hr/>
+                        <span>Icon Frames</span>
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="icon-frame-1" width="60px" src="https://cdn.lynnux.xyz/lynnux/IconFrame-Icon-1.png" data-source="https://cdn.lynnux.xyz/lynnux/IconFrame-1.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
                   </div>
                </div>
@@ -297,7 +307,13 @@
                         <img id="social-discord" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Discord.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Discord.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
+                        <img id="social-Reddit" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Reddit.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Reddit.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
                         <img id="social-twitter" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Twitter.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Twitter.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="social-X" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-X.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-X.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                      <div class="option d-inline-block">
                         <img id="social-youtube" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Youtube.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Youtube.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
@@ -310,6 +326,9 @@
                      </div>
                      <div class="option d-inline-block">
                         <img id="social-gluo-large" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Gluo.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Gluo.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="social-Github" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-Social-Github.png" data-source="https://cdn.lynnux.xyz/lynnux/Icon-Social-Github.png" alt="Icon" onclick="select('icon', this.id, this.getAttribute('data-source'));">
                      </div>
                   </div>
                </div>
