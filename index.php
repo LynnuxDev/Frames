@@ -408,6 +408,7 @@
       <!-- -->
       <?php
          // Assuming you receive the data as JSON
+         /*
          $data = json_decode(file_get_contents('php://input'), true);
 
          if (isset($data['darkMode'])) {
@@ -416,7 +417,7 @@
          }
 
          // Return a response if needed
-         echo json_encode(['success' => true]);
+         echo json_encode(['success' => true]); */
       ?>
       <!-- Footer -->
       <footer>
