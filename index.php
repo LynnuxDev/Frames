@@ -400,7 +400,7 @@
                   <h5><i class="fa-solid fa-gear"></i> Settings</h5>
                   <span style="color:var(--text-muted-color);" class="text-muted sm-t mb-0">Diverse settings for web and overlay customization.</span>
                   <hr>
-                  <h6><i class="fa-regular fa-circle-half-stroke"></i> Site Theme</h6>
+                  <h6><i class="fa fa-sun-o"></i> Site Theme</h6>
                   <div class="form-check text-muted">
                      <input class="form-check-input" type="checkbox" value="" id="mode-toggle">
                      <label class="form-check-label sm-t" for="darkModeToggle">
