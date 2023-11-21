@@ -410,41 +410,14 @@
       </footer>
       <!-- CloudTeam Frames Scripting -->
       <script src="./assets/js/script.js?v=4.1"></script>
-      <!-- <script src="./assets/js/darkmode.js?v=1"></script> -->
+      <script src="./assets/js/darkmode.js?v=1"></script>
       <!-- DOM to image v2.6.0 Minified -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <!-- Bootstrap JS -->
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <script>
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM Loaded');
 
-    var darkModeToggle = document.getElementById('mode-toggle');
-    console.log('darkModeToggle:', darkModeToggle);
-
-    darkModeToggle.addEventListener('change', function() {
-        console.log('Dark mode toggle changed');
-
-        if (darkModeToggle.checked) {
-            console.log('Dark mode enabled');
-            enableDarkMode();
-        } else {
-            console.log('Dark mode disabled');
-            disableDarkMode();
-        }
-    });
-
-    function enableDarkMode() {
-        console.log('Enabling dark mode');
-        document.body.classList.add('dark-mode');
-    }
-
-    function disableDarkMode() {
-        console.log('Disabling dark mode');
-        document.body.classList.remove('dark-mode');
-    }
-});
       </script>
    </body>
 </html>
