@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('DOM Loaded');
     const darkModeToggle = document.getElementById('darkModeToggle');
-    console.log('darkModeToggle:', darkModeToggle);
     const bodyElement = document.body;
     const logoImage = document.querySelector('.navbar-brand img');
 
@@ -34,7 +32,12 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function updateLogoImage(src) {
-        logoImage.src = src;
+        // Preload the image to avoid delays
+        const img = new Image();
+        img.src = src;
+        img.onload = function () {
+            logoImage.src = src;
+        };
     }
 
     function setCookie(name, value, days) {
