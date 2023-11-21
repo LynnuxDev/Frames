@@ -178,6 +178,15 @@
                      <div class="option d-inline-block">
                         <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-9.png" data-source="https://cdn.lynnux.xyz/lynnux/9.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-12.png" data-source="https://cdn.lynnux.xyz/lynnux/12.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-11.png" data-source="https://cdn.lynnux.xyz/lynnux/11.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-14.png" data-source="https://cdn.lynnux.xyz/lynnux/14.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
                      <div class="hrdivider">
                         <hr/>
                         <span>Animals</span>
@@ -194,7 +203,50 @@
                      <div class="option d-inline-block">
                         <img id="animal-bunny-pink" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-8.png" data-source="https://cdn.lynnux.xyz/lynnux/8.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
+                     <div class="option d-inline-block">
+                        <img id="animal-bunny-pink" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-15.png" data-source="https://cdn.lynnux.xyz/lynnux/15.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="animal-bunny-pink" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-16.png" data-source="https://cdn.lynnux.xyz/lynnux/16.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="animal-bunny-pink" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-17.png" data-source="https://cdn.lynnux.xyz/lynnux/17.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="animal-bunny-pink" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-18.png" data-source="https://cdn.lynnux.xyz/lynnux/18.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
                      <div class="hrdivider">
+                        <hr/>
+                        <span>Colored</span>
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-13.png" data-source="https://cdn.lynnux.xyz/lynnux/13.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-19.png" data-source="https://cdn.lynnux.xyz/lynnux/19.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-10.png" data-source="https://cdn.lynnux.xyz/lynnux/10.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-20.png" data-source="https://cdn.lynnux.xyz/lynnux/20.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-21.png" data-source="https://cdn.lynnux.xyz/lynnux/21.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-22.png" data-source="https://cdn.lynnux.xyz/lynnux/22.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-25.png" data-source="https://cdn.lynnux.xyz/lynnux/25.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-23.png" data-source="https://cdn.lynnux.xyz/lynnux/23.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-24.png" data-source="https://cdn.lynnux.xyz/lynnux/24.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="hrdivider"1>
                         <hr/>
                         <span>Icon Frames</span>
                      </div>
@@ -348,7 +400,7 @@
                   <h5><i class="fa-solid fa-gear"></i> Settings</h5>
                   <span style="color:var(--text-muted-color);" class="text-muted sm-t mb-0">Diverse settings for web and overlay customization.</span>
                   <hr>
-                  <h6><i class="fa-solid fa-user-sun"></i> Site Theme</h6>
+                  <h6><i class="fa-regular fa-circle-half-stroke"></i> Site Theme</h6>
                   <div class="form-check text-muted">
                      <input class="form-check-input" type="checkbox" value="" id="mode-toggle">
                      <label class="form-check-label sm-t" for="darkModeToggle">
