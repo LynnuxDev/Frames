@@ -428,7 +428,7 @@
       </footer>
       <!-- Lynnux Frames Scripting -->
       <script src="./assets/js/script.js?v=4.1"></script>
-      <script src="./assets/js/darkmode.js?v=1"></script>
+      <script src="./assets/js/darkmode.js?v=2"></script>
       <!-- DOM to image v2.6.0 Minified -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <!-- Bootstrap JS -->
