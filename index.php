@@ -187,6 +187,15 @@
                      <div class="option d-inline-block">
                         <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-14.png" data-source="https://cdn.lynnux.xyz/lynnux/14.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-27.png" data-source="https://cdn.lynnux.xyz/lynnux/27.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-28.png" data-source="https://cdn.lynnux.xyz/lynnux/28.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-29.png" data-source="https://cdn.lynnux.xyz/lynnux/29.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
                      <div class="hrdivider">
                         <hr/>
                         <span>Animals</span>
@@ -246,6 +255,12 @@
                      <div class="option d-inline-block">
                         <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-24.png" data-source="https://cdn.lynnux.xyz/lynnux/24.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
                      </div>
+                     <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-26.png" data-source="https://cdn.lynnux.xyz/lynnux/26.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div>
+                     <!-- <div class="option d-inline-block">
+                        <img id="rectangle-heart" width="60px" src="https://cdn.lynnux.xyz/lynnux/Icon-30.png" data-source="https://cdn.lynnux.xyz/lynnux/30.png" alt="Overlay" onclick="select('overlay', this.id, this.getAttribute('data-source'));">
+                     </div> -->
                      <div class="hrdivider"1>
                         <hr/>
                         <span>Icon Frames</span>
