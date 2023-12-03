@@ -4,13 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var darkModeToggle = document.getElementById('mode-toggle');
     // console.log('darkModeToggle:', darkModeToggle);    Used for debuging
 
-    // Check if dark mode preference is stored in Local Storage
     var isDarkModeEnabled = localStorage.getItem('darkMode') === 'enabled';
 
-    // Set the initial state based on the Local Storage value
     darkModeToggle.checked = isDarkModeEnabled;
 
-    // Apply dark mode styles based on the initial state
     if (isDarkModeEnabled) {
         enableDarkMode();
     }
