@@ -90,7 +90,7 @@
       <div class="parent-loader" id="spinner-parent">
          <div class="mx-auto inner-loader" id="spinner"><i class="fa-solid fa-paint-roller"></i></div>
       </div>
-      <!-- Header -->
+      <!-- Header --> 
       <header>
          <nav class="navbar fixed-top navbar-expand-lg bg-color">
             <div class="container" id="content-header">

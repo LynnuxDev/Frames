@@ -121,18 +121,7 @@ const check = (url) => {
     return (url.match(/^http[^\?]*.(jpg|jpeg|gif|png|tiff|bmp|webp|svg)(\?(.*))?$/gmi) !== null);
 }
 
-/*Loader*/
-var load;
-function loader() {
-    load = setTimeout(loaded, 3000);
-}
 
-function loaded() {
-    document.getElementById("spinner").style.display = "none";
-    document.getElementById("spinner-parent").style.display = "none";
-    document.getElementById("content-header").style.opacity = "1";
-    document.getElementById("content-body").style.opacity = "1";
-}
 
 /*Tabs Handler*/
 function newtab(evt, tabname) {
